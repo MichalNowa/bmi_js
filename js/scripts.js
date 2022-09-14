@@ -1,9 +1,9 @@
 inter = ["Wygłodzenie", "Wychudzenie", "Niedowaga", "Waga prawidłowa", "Nadwaga", "1 stopień otyłości", "2 stopień otyłości", "3 stopień otyłości"];
 
 
-let button_html = document.getElementById("button");
-let waga_html = document.getElementById("waga");
-let wzrost_html = document.getElementById("wzrost");
+const waga_html = document.getElementById("waga");
+const button_html = document.getElementById("button");
+const wzrost_html = document.getElementById("wzrost");
 let wynik_hmtl = document.getElementById("wynik");
 let inter_html = document.getElementById("inter")
 
